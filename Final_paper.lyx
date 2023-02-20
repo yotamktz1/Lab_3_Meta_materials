@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass article
+\textclass heb-article
 \begin_preamble
 \usepackage{braket}
 \end_preamble
@@ -35,7 +35,7 @@ figs-within-sections
 \output_sync 0
 \bibtex_command default
 \index_command default
-\float_placement h
+\float_placement H
 \paperfontsize default
 \spacing single
 \use_hyperref false
@@ -106,9 +106,371 @@ figs-within-sections
 מערכת הניסוי
 \end_layout
 
+\begin_layout Subsubsection
+כלל המערכת
+\end_layout
+
 \begin_layout Standard
-הסבר על גלבו CRLH הספציפי שלנו, אפשר להעתיק כמעט מילה במילה מדוח אחר.
- הסופנן למערכת אלמנט לשינוי הקיבול ליחידת אורך 
+אל מחשב חיברנו - מנתח רשתות מסוג () , ומיני בקר של ארדואינו.
+ בית המלאכה הכין מערכת תלת צירית שיכולה להזיז משטח לאורך שלושה צירים ניצבים
+ )x,y,z( , במשטח יש שקע שמתאים ל PCB.
+ הארדואינו חובר אל המנועים של מערכת הזזה וכך יכולנו לשלוט מהמחשב בתזוזת
+ הלוח.
+ השתמשנו בקוד מאטלאב שנותן פקודות לבקר בשפת ארדואינו.
+ חיברנו את היציאה של מנתח הרשתות לאחת הכניסות של מוליך הגלים ואת הכניסה
+ שלו חיברנו אל היציאה ממוליך הגלים או לכבל קואקסיאלי שצף מעל מוליך הגלים
+ (תמונה) בהתאם לבדיקה שביצענו.
+\end_layout
+
+\begin_layout Subsubsection
+מוליך הגלים
+\end_layout
+
+\begin_layout Standard
+על לוח PCB שתוכנן במיוחד לניסוי הלחמנו קבלים ומשרנים כד ליצור מוליך גלים
+ CRLH .
+ הלוח בתצורת Coplanar waveguide, בחלקו החשוף נמצא המשטח המוליך ברוחב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מ
+\begin_inset Quotes erd
+\end_inset
+
+מ, מתחתיו שכבה בעובי של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\numeric on
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מ
+\begin_inset Quotes erd
+\end_inset
+
+מ של חומר דיאלקטרי מסוג fp
+\numeric on
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בעל מקדם דיאלקטרי 
+\begin_inset Formula 
+\[
+\varepsilon_{r}=4.2\sim4.7
+\]
+
+\end_inset
+
+אשר מפרידה בינו לבין משטח ההארקה.
+ מצידי משטח ההולכה יש תעלות הפרדה ברוחב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+\numeric on
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מ
+\begin_inset Quotes erd
+\end_inset
+
+מ ואחריהן עוד משטחי הארקה.
+ משטח ההולכה מחולק לעשרה תאים באורך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+9
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מ
+\begin_inset Quotes erd
+\end_inset
+
+מ כל אחד.
+ למוליך גלים כזה יש השראות וקיבול ליחידת אורך.
+ חישבנו את ההשראות והקיבול ליחידת אורך בעזרת (לינק למחשבון) וקיבלנו:
+\begin_inset Formula 
+\[
+L_{0}=0.238\left[\frac{nH}{mm}\right]
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+C_{0}=0.136\left[\frac{pF}{mm}\right]
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Z_{0}=41.82\left[\Omega\right]
+\]
+
+\end_inset
+
+ כדי לייצר מוליך CRLH הלחמנו קבלים בין התאים במוליך, לאחר הלחמת הקבלים בדקנו
+ שלא ייצרנו קצרים בין התאים.
+ לאחר מכן חיברנו בכל תא משרן בין המשטח המוליך למשטח האדמה.
+ בצידי הלוח חיברנו מחברים שיתאימו לחיבור כבל קואקסיאלי כדי שנוכל לחבר את
+ מוליך הגלים למנתח הרשתות.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+מוליך הגלים CRLH
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+אלמנט שינוי הקיבול
+\end_layout
+
+\begin_layout Standard
+הוספנו למערכת אלמנט לשינוי הקיבול ליחידת אורך 
 \begin_inset Formula $C_{0}$
 \end_inset
 
@@ -121,13 +483,25 @@ figs-within-sections
 \begin_inset Formula $94\times38$
 \end_inset
 
-( יש חתך לאורך בעומקים משתנים.
+( יש חתך לאורך.
+ המתקן הונח מעל מוליך הגלים כך שאין מגע בין רכיבי המוליך למתקן ויש מגע רציף
+ בין המתקן לפסי ההארקה הצדדיים.
+ 
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pictures/cover_element2.jpg
+	lyxscale 20
+	width 50text%
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -148,6 +522,15 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pictures/cover_element.jpg
+	lyxscale 20
+	width 70text%
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -165,7 +548,10 @@ status open
 
 \end_inset
 
-
+בעזרת מתקן זה רצינו לשנות את הקיבול ליחידת אורך על ידי הוספה של משטח אדמה
+ נוסף.
+ ביקשנו מבית המלאכה לייצר לנו מתקנים כאלה כאשר עומק החתך שונה בין כל אחד
+ לשני על מנת לנסות לכמת את ההשפעות של מתקן כזה על ההעברה.
 \end_layout
 
 \begin_layout Section
@@ -271,29 +657,65 @@ FFT ומעבר למרחב המקום
 
 \end_inset
 
-
+הנחה זו מפשרת מעבר נוח ממרחב התדר למרחב מספר הגל, ואז במקום לדבר על זמנים
+ אופיינים במערכת נוכל לדבר על אורכים אופייניים וזה גודל שיותר קל למדוד בניסוי
+ הזה.
+ כשאנחנו מסתכלים על תנועה מחזורית במרחב מספר הגל אורך המחזור הוא:
 \begin_inset Formula 
 \[
-\lambda=\frac{c_{\text{eff}}}{f}\qquad\Rightarrow\qquad\Delta\lambda=c_{\text{eff}}\frac{f_{2}-f_{1}}{f_{2}f_{1}}
+\Delta k=\frac{2\pi}{L}
 \]
 
 \end_inset
 
-הנחה זו מפשרת מעבר נוח ממרחב התדר למרחב מספר הגל, ואז במקום לדבר על זמנים
- אופיינים במערכת נוכל לדבר על אורכים אופייניים וזה גודל שיותר קל למדוד בניסוי
- הזה.
- האורך האופייני הקצר יותר נשאר דומה בסט-אפים השונים אך הארוך משתנה.
- 
+כאשר 
+\begin_inset Formula $L$
+\end_inset
+
+ הוא אורך כלשהו במערכת עליו יש תנאי שפה והוא נותן תנאי קוונטיזציה למערכת.
+ המערכת שלנו אין אורכי גל אסורים, אך יש אורכי גל מסוימים שעבורם המתח הנמדד
+ בהדק היציאה ממוליך הגלים גבוה יותר.
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/FFT/better/itai_n_b.png
+	width 50text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/FFT/better/itai_1.0.png
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/FFT/better/itai_1.3.png
+	width 50text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/FFT/better/itai_1.5.png
+	width 50text%
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-FFT של ממרחב מספר הגל למספרים אופייניים
+FFT ממרחב מספר הגל אל מרחב האורך האופייני אופייניים
 \end_layout
 
 \end_inset
@@ -301,13 +723,11 @@ FFT של ממרחב מספר הגל למספרים אופייניים
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
-
+גם מהסתכלות ישירה על הנתונים, אבל במיוחד עם הגיבוי מהתמרות פורייה רואים
+ שהאורכים האופיינים הם פעמיים אורך מוליך הגלים, ושמונה פעמים האורך הזה.
+ ברזולוצית התדרים שאנחנו לקחנו אין שינוי באורך האופייני.
 \end_layout
 
 \begin_layout Section
