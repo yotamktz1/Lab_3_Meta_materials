@@ -1,0 +1,326 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{braket}
+\end_preamble
+\use_default_options true
+\begin_modules
+calculyx
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "FreeSans"
+\font_sans "default" "FreeSerif"
+\font_typewriter "default" "FreeMono"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\rightmargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\bar under
+שינויים במאפייני מוליך גלים מסוג CRLH
+\end_layout
+
+\begin_layout Section
+מבוא ורקע תיאורטי
+\end_layout
+
+\begin_layout Standard
+פה יכנס מבוא
+\end_layout
+
+\begin_layout Section
+מערכת הניסוי
+\end_layout
+
+\begin_layout Standard
+הסבר על גלבו CRLH הספציפי שלנו, אפשר להעתיק כמעט מילה במילה מדוח אחר.
+ הסופנן למערכת אלמנט לשינוי הקיבול ליחידת אורך 
+\begin_inset Formula $C_{0}$
+\end_inset
+
+ בצורת תיבת אלומיניום שמונחת על הגלבו.
+ מידותיה הן 
+\begin_inset Formula $94\times38\times10$
+\end_inset
+
+ כאשר במרכז הפאה הרחבה של התיבה )
+\begin_inset Formula $94\times38$
+\end_inset
+
+( יש חתך לאורך בעומקים משתנים.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+אלמנט שינוי הקיבול
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+האלמנט מונח על מוליך הגלים
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+תוצאות
+\end_layout
+
+\begin_layout Subsection
+מדידות לוחות שונים עם אלמנטי שינוי קיבול בגבהים שונים
+\end_layout
+
+\begin_layout Standard
+במדידת ניתוח רשתות של הכרטיסים השונים מצאנו שהאלמנט מוסיף הסחה לתמונת ניתוח
+ הרשתות.
+ בתמונה במרחב התדר ניתן לראות שני 
+\begin_inset Quotes eld
+\end_inset
+
+תדרים
+\begin_inset Quotes erd
+\end_inset
+
+ שמאפיינים את המרחב הזה, תדרים במרחב התדר הם כמובן זמנים אופיינים במערכת.
+ את ההתאמה להסטה הטובה ביותר ביצענו בעיקר בהתאם לזמנים האופייניים הקצרים
+ (להוסיף קישור לנספחים) .
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+דוגמא לגרף מוסט ולא מוסט ביחס למדידה בלי האלמנט
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/compilation/1pf.png
+	lyxscale 50
+	width 25page%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/compilation/2,7pf.png
+	lyxscale 50
+	width 25page%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/compilation/2pf.png
+	lyxscale 50
+	width 25page%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+גרף קומפילציה של מידת ההסטה כתלות בגובה האלמנט
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+FFT ומעבר למרחב המקום
+\end_layout
+
+\begin_layout Standard
+\align block
+על מנת להבין יותר טוב את התוצאות אפשר לבצע הנחה של דיספרסיה לינארית
+\begin_inset Formula 
+\[
+\omega=c_{\text{eff}}k
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\lambda=\frac{c_{\text{eff}}}{f}\qquad\Rightarrow\qquad\Delta\lambda=c_{\text{eff}}\frac{f_{2}-f_{1}}{f_{2}f_{1}}
+\]
+
+\end_inset
+
+הנחה זו מפשרת מעבר נוח ממרחב התדר למרחב מספר הגל, ואז במקום לדבר על זמנים
+ אופיינים במערכת נוכל לדבר על אורכים אופייניים וזה גודל שיותר קל למדוד בניסוי
+ הזה.
+ האורך האופייני הקצר יותר נשאר דומה בסט-אפים השונים אך הארוך משתנה.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+FFT של ממרחב מספר הגל למספרים אופייניים
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+דיון ומסקנות
+\end_layout
+
+\begin_layout Standard
+דיון
+\end_layout
+
+\begin_layout Section
+נספחים
+\end_layout
+
+\end_body
+\end_document
