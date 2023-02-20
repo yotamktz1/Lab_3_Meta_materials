@@ -98,15 +98,53 @@ figs-within-sections
 מבוא ורקע תיאורטי
 \end_layout
 
+\begin_layout Subsection
+מוליך גלים CRLH
+\end_layout
+
 \begin_layout Standard
-פה יכנס מבוא
+בלהלהל
+\end_layout
+
+\begin_layout Subsection
+קבל לוחות
+\end_layout
+
+\begin_layout Standard
+בין שני לוחות של חומר מוליך נוצר קיבול.
+ המטען שמתרכז בלוח אחד גורם למטען מראה להתרכז בלוח השני.
+ השדה בין שני הלוחות קבוע ולכן הפרש האנרגיה (הפוטנציאל) הוא מכפלת השדה החשמלי
+ במרחק בין הלוחות, והקיבול:
+\begin_inset Formula 
+\[
+C=\frac{Q}{V}=\frac{\varepsilon A}{d}
+\]
+
+\end_inset
+
+כאשר
+\begin_inset Formula $A$
+\end_inset
+
+ הוא שטח הלוחות.
+ במקרה של לוחות מקבילים שאינם באותו גודל הנוסחה עדיין מתאימה, אך צפיפות
+ המטען על הלוח הגדול יותר לא תהיה מראה של צפיפות המטען בלוח הקטן.
+ בכל מקרה של קיבול בין לוחות:
+\begin_inset Formula 
+\[
+C\propto\frac{1}{d}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
 מערכת הניסוי
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 כלל המערכת
 \end_layout
 
@@ -122,7 +160,7 @@ figs-within-sections
  (תמונה) בהתאם לבדיקה שביצענו.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 מוליך הגלים
 \end_layout
 
@@ -445,6 +483,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pictures/PCB.jpeg
+	width 70page%
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -465,7 +511,7 @@ status open
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 אלמנט שינוי הקיבול
 \end_layout
 
@@ -582,6 +628,21 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename 15_12/figures/2,7pf_1,3_no_shift.png
+	width 50text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename 15_12/figures/2,7pf_1,3.png
+	width 50text%
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -595,7 +656,74 @@ status open
 
 \end_inset
 
+ניתן לבחון את ניתוח הרשתות ולראות שפער האנרגיה לא ממש זז, אך יש הסטה קבועה
+ עבור המחזורים הקצרים.
+ מידת ההסטה מוצגת באיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+.
+\numeric on
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ נצפה שההסטה תדעך לאפס (או לקבוע) במקרה שבו הרכיב רחוק מאוד ממוליך הגלים,
+ ושהקיבול ילך כמו 
+\begin_inset Formula $\frac{1}{d}$
+\end_inset
 
+.
+ 
 \begin_inset Float figure
 wide false
 sideways false
@@ -640,7 +768,15 @@ status open
 
 \end_inset
 
+בבבב
+\end_layout
 
+\begin_layout Subsection
+שינוי סך העוצמה המועברת
+\end_layout
+
+\begin_layout Standard
+הבחנו כי ככל שהכיסוי קרוב יותר אל מוליך הגלים סך העוצמה המועברת עולה.
 \end_layout
 
 \begin_layout Subsection
@@ -728,6 +864,41 @@ FFT ממרחב מספר הגל אל מרחב האורך האופייני אופ�
 גם מהסתכלות ישירה על הנתונים, אבל במיוחד עם הגיבוי מהתמרות פורייה רואים
  שהאורכים האופיינים הם פעמיים אורך מוליך הגלים, ושמונה פעמים האורך הזה.
  ברזולוצית התדרים שאנחנו לקחנו אין שינוי באורך האופייני.
+\end_layout
+
+\begin_layout Subsection
+סימולציה נומרית
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תוצאת הסימולציה הנומרית
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
